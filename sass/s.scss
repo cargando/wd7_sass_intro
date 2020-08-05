@@ -1,0 +1,31 @@
+$main-color: red;
+$red-border: #ff0000 dashed 1px;
+
+h2 {
+  color: $main-color
+}
+
+.container {
+  border: $red-border;
+  &__aqua {
+    color: cadetblue;
+    font-family: "Apple SD Gothic Neo";
+  }
+  &__black {
+    color: black;
+    font-family: "Al Nile";
+  }
+  p {
+    color: aquamarine;
+    font-style: italic;
+    span {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: red;
+    }
+
+  }
+
+}
+

@@ -1,0 +1,27 @@
+h2 {
+  color: red;
+}
+
+.container {
+  border: #ff0000 dashed 1px;
+}
+.container__aqua {
+  color: cadetblue;
+  font-family: "Apple SD Gothic Neo";
+}
+.container__black {
+  color: black;
+  font-family: "Al Nile";
+}
+.container p {
+  color: aquamarine;
+  font-style: italic;
+}
+.container p span {
+  text-decoration: underline;
+}
+.container p a:visited {
+  color: red;
+}
+
+/*# sourceMappingURL=s.css.map */
